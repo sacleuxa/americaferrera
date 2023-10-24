@@ -39,6 +39,14 @@
     background-color: #F8C9EA;
     line-height: 16px;
 }
+.imginfo h3 {
+    padding: 10px 20px 10px;
+    text-align: left;
+    font-family: arial;
+    font-size: 19px;
+    color: #000;
+    line-height: 16px;
+}
 .imginfo p {
     padding: 0px 30px 20px;
     font-family: arial;
