@@ -10,8 +10,18 @@
     padding: 20px 20px 10px 10px;
 }
 .blackdress {
-    width: 227px;
-    height: 192px;
+    width: 180pt;
+    height: 150pt;
+    padding: 5px 5px;
+}
+.whitedress {
+    width: 180pt;
+    height: 150pt;
+    padding: 5px 5px;
+}
+.barbiecrew {
+    width: 180pt;
+    height: 150pt;
     padding: 5px 5px;
 }
 .imgbanner {
