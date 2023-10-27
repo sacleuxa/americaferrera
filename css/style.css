@@ -64,20 +64,50 @@
     width: 500px;
     height: 300px;
 }  
+footer{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #840026;
+    background-color: #F8C9EA;
+}
+link {
+    color:#840026;
+}
 @media screen and (max-width: 425px)
 {
 .banner__title{
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 30px;
 }
 .banner__title2{
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 40px;
 }
 .imginfo h3 {
-    font-size: 12px;
+    font-size: 16px;
 }
 .imgbarbiecrew {
-   position: absolute;
+   position:relative;
+   width: 353px;
+   height: auto;
+   margin-top: 10px;
+   margin-left: 35px;
+}
+.imginfo h4 {
+    padding: 10px 30px 10px;
+    text-align: left;
+    font-family: arial;
+    font-size: 16px;
+    color: #000;
+    line-height: 16px;
+}
+.imginfo p {
+    padding: 0px 30px 20px;
+    font-family: arial;
+    font-size: 16px;
+    color: #000;
+    line-height: 18px;
 }
 }
