@@ -77,10 +77,24 @@ footer{
     background-color: #840026;
     height: 30px;
 }
-@media screen and (max-width: 1440px)
-{
+@media screen and (max-width: 1440px) {
 .gallery {
-display: none; 
+    display: none;
+}
+.imgbarbiecrew {
+    width: 719px;
+    height: 362px;
+    margin-top: 10px;
+}
+.paragraph {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+.h4paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 }
 @media screen and (max-width: 768px)
@@ -121,6 +135,16 @@ display: none;
 .gallery {
     display: none;
 }
+.paragraph {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+.h4paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .banner__title2{
     font-size: 16px;
@@ -143,4 +167,5 @@ display: none;
     font-size: 16px;
     color: #000;
     line-height: 18px;
+}
 }
